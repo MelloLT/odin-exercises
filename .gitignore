@@ -1,0 +1,30 @@
+cat > .gitignore << 'EOF'
+# Игнорировать ВСЕ файлы вне этой папки
+/*
+!*.gitignore
+!css-exercises/
+!javascript-exercises/  
+!odin-recipes/
+!js/
+!landinpage/
+!flexbox/
+
+# Игнорировать вложенные .git папки
+*/.git/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Зависимости
+node_modules/
+
+# Логи
+*.log
+
+# Файлы окружения
+.env
+
+# Временные файлы
+*.tmp
+EOF

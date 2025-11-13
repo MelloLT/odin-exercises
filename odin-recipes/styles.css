@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: beige;
+  text-align: center;
+}
+
+.recipes {
+  border-top: solid;
+  width: 100%;
+}
+
+ul,
+ol {
+  width: 700px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+div {
+  margin: 50px auto;
+  text-align: center;
+  width: 700px;
+}
+
+a {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+a:hover {
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(18, 29, 21, 0.3);
+  text-decoration: none;
+}
+
+.whole {
+  border: 3px solid black;
+  background-color: white;
+  width: 800px;
+}
