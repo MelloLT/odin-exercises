@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Test</title>
+  </head>
+
+  <body>
+    <script>
+      function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          //Алгоритм Фишера-Йетса
+          let j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+      }
+      let arr = [1, 2, 3, 4, 5, 6, 7];
+      shuffle(arr);
+      console.log(arr);
+    </script>
+  </body>
+</html>
