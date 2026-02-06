@@ -10,11 +10,16 @@ body {
 #sketch-area {
   display: flex;
   background-color: white;
-  margin: 200px auto;
+  margin: 200px auto 0 auto;
   flex-wrap: wrap;
   box-shadow: 10px 10px rgba(0, 170, 255, 0.034);
 }
 
 .gridTile {
   border: 1px solid whitesmoke;
+}
+
+.buttons {
+  margin: 10px auto 100px auto;
+  text-align: center;
 }
