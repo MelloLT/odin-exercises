@@ -32,7 +32,7 @@ function changeColor() {
 
 function createGrids() {
   const numberOfSquares = squaresPerSide * squaresPerSide;
-  const widthOrHeight = `${gridSize / squaresPerSide - 2}px`;
+  const widthOrHeight = `${gridSize / squaresPerSide}px`;
   for (let i = 0; i < numberOfSquares; i++) {
     const gridTile = document.createElement("div");
 

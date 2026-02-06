@@ -2,21 +2,25 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   background-color: aliceblue;
 }
-
+#title {
+  margin: 20px auto;
+  text-align: center;
+  color: rgb(3, 57, 108);
+}
 #sketch-area {
   display: flex;
   background-color: white;
-  margin: 200px auto 0 auto;
+  margin: 50px auto 0 auto;
   flex-wrap: wrap;
   box-shadow: 10px 10px rgba(0, 170, 255, 0.034);
 }
 
 .gridTile {
   border: 1px solid whitesmoke;
+  box-sizing: border-box;
 }
 
 .buttons {
